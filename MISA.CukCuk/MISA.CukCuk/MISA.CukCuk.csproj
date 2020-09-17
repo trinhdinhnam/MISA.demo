@@ -4,5 +4,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\content\images\" />
+    <Folder Include="wwwroot\content\fonts\" />
+    <Folder Include="wwwroot\content\icon\" />
+    <Folder Include="wwwroot\css\common\" />
+    <Folder Include="wwwroot\js\" />
+    <Folder Include="wwwroot\pages\report\" />
+  </ItemGroup>
+
 
 </Project>

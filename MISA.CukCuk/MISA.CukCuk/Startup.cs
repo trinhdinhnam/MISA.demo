@@ -37,6 +37,7 @@ namespace MISA.CukCuk
             }
 
             app.UseHttpsRedirection();
+            app.UseStaticFiles();
 
             app.UseRouting();
 
