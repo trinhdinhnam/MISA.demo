@@ -1,2 +1,298 @@
-﻿body {
+﻿
+body {
+    margin: 0px;
+    font-family: 'MISA Fonts', 'MISA Fonts Bold', 'MISA Fonts fontello';
+    font-size: 15px;
 }
+
+@font-face {
+    font-family: MISA Fonts;
+    src: url("../../content/fonts/Tahoma_Regular.woff")
+}
+
+@font-face {
+    font-family: MISA Fonts Bold;
+    src: url("../../content/fonts/Tahoma_Bold.woff")
+}
+
+@font-face {
+    font-family: MISA Fonts fontello;
+    src: url("../../content/fonts/fontello.woff")
+}
+
+.menu {
+    float: left;
+    width: 250px;
+    height: 100vh;
+    background-color: #0973b9;
+}
+
+.content {
+    width: calc(100% - 250px);
+    height: 100vh;
+    margin-left: 250px;
+}
+
+/*Content header*/
+.content-header {
+    height: 50px;
+    background-color: #2973b9;
+}
+
+    .content-header .option {
+        float: left;
+        width: 200px;
+        height: 35px;
+        margin-top: 7px;
+        
+    }
+        .content-header .option select {
+            background-color: #02498e;
+            border: none;
+            color: #fff;
+            width: 100%;
+            height: 100%;
+        }
+        .content-header .language {
+            float: left;
+            
+            width: 200px;
+            height: 35px;
+            margin-top: 7px;
+            margin-left: 800px;
+        }
+
+            .content-header .language select {
+                background-color: #02498e;
+                border: none;
+                color: #fff;
+                width: 100%;
+                height: 100%;
+            }
+        /*Content body*/
+        .content-body {
+    position: relative;
+    padding: 10px;
+    height: calc(100vh - 70px);
+}
+
+    .content-body .page-title h1 {
+        margin: 5px 0px 5px 0px;
+        font-size: 18px;
+    }
+
+    .content-body .grid-content {
+        position: absolute;
+        border: 1px solid #ccc;
+        top: 50px;
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+    }
+
+.grid-content .toolbar {
+    border: 1px solid #000;
+    height: 25px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(239,239,239);
+}
+
+.toolbar button {
+    height: 100%;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    border-radius: unset;
+}
+
+    .toolbar button:hover {
+        background-color: #1b8bd4;
+    }
+
+.icon {
+    display: block;
+    background-image: url('../../content/images/IconSprite.png');
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+}
+
+    .icon.icon-add {
+        background-position: 0 -48px;
+    }
+
+    .icon.icon-edit {
+        background-image: url('../../content/images/Edit16.png');
+    }
+
+    .icon.icon-del {
+        background-image: url('../../content/images/Disable16.png');
+    }
+
+.grid-content .grid {
+    border: 1px solid #000;
+    width: 100%;
+    height: calc( 100% - 25px);
+}
+
+.grid-content .paging {
+    height: 25px;
+    width: 100%;
+}
+
+
+#logo {
+    width: 100%;
+    height: 50px;
+}
+
+#menu-content {
+    width: 100%;
+    height: calc(100vh - 50px);
+}
+
+#logo .iconbar {
+    width: 50px !important;
+    float: left;
+    height: 100%;
+    background-image: url('../../content/images/icon-left-header.png');
+    background-repeat: no-repeat;
+    background-position: 20px 15px;
+}
+
+#logo .logo-text {
+    float: left;
+    height: 100%;
+    width: calc(100% - 50px);
+    background-image: url('../../content/images/logo-text.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.menu-item {
+    color: #ffffff;
+    height: 40px;
+    display: flex;
+    border-bottom: 1px solid #08598e;
+    border-top: 1px solid #1b8bd4;
+}
+
+    .menu-item:hover {
+        background-color: #1b8bd4;
+        cursor: pointer;
+    }
+
+    .menu-item .menu-item-icon {
+        width: 40px;
+        height: 100%;
+        float: left;
+        background-image: url('../../content/images/iconMenu.png');
+        background-repeat: no-repeat;
+    }
+
+    .menu-item .menu-item-text {
+        line-height: 40px;
+    }
+
+.icon-board {
+    background-position: 5px 8px;
+}
+
+.icon-report {
+    background-position: 7px -184px;
+}
+
+.icon-buy {
+    background-position: 7px -367px;
+}
+
+.icon-warehouse {
+    background-position: 7px -31px;
+}
+
+.icon-cashfund {
+    background-position: 7px -71px;
+}
+
+.icon-depositfund {
+    background-position: 7px -71px;
+}
+
+.icon-cost {
+    background-position: 7px -489px;
+}
+
+.icon-discount {
+    background-position: 7px -110px;
+}
+
+/*Table*/
+.grid table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .grid table td, th {
+        padding: 4px;
+    }
+
+    .grid table thead {
+        background-color: rgb(239,239,239);
+    }
+
+.logo-noti {
+    background-image: url('../../content/images/icon-noti.png');
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+    margin-top: 6px;
+    margin-left: 20px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.logo-call {
+    background-image: url('../../content/images/call-icon.png');
+    height: 28px;
+    width: 28px;
+    margin: 10px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.acount{
+    float: left;
+    height: 40px;
+    width: 200px;
+}
+
+    .acount .acount-image {
+        float: left;
+        background-image: url('../../content/images/EmployeeImage.png');
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .acount .acount-name {
+        background-color: #2973b9;
+        float: left;
+        width: calc(100% - 40px);
+        padding-top: 10px;
+        height: 100%;
+
+    }
+
+        .acount .acount-name select {
+            background-color: #2973b9;
+            border: none;
+            width: 80%;
+            height: 30px;
+            color: white;
+            margin: auto;
+        }

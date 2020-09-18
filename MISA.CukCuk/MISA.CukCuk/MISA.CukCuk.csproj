@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\content\images\" />
     <Folder Include="wwwroot\content\fonts\" />
     <Folder Include="wwwroot\content\icon\" />
     <Folder Include="wwwroot\css\common\" />
