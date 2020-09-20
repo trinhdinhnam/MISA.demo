@@ -4,6 +4,11 @@
     <title></title>
     <meta charset="utf-8" />
     <link href="../../css/category/customer.css" rel="stylesheet" />
+    <link href="../../css/common/shares.css" rel="stylesheet" />
+    <link href="../../css/layout/content.css" rel="stylesheet" />
+    <link href="../../css/layout/menu.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="../../css/common/dialog.css" rel="stylesheet" />
 </head>
 <body>
     <!-- Menu -->
@@ -47,9 +52,27 @@
                 <div class="menu-item-icon icon-discount"></div>
                 <div class="menu-item-text">Khuyến mãi</div>
             </div>
-
-
-
+            <div class="menu-item">
+                <div class="menu-item-icon icon-category">
+                </div>
+                <div class="menu-item-text">Danh mục</div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-icon icon-odercancle"></div>
+                <div class="menu-item-text">Hủy hóa đơn</div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-icon icon-setting"></div>
+                <div class="menu-item-text">Thiết lập hệ thống</div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-icon icon-help"></div>
+                <div class="menu-item-text">Trợ giúp</div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-icon icon-subscriber"></div>
+                <div class="menu-item-text">Thuê bao</div>
+            </div>
         </div>
     </div>
     <!-- Content -->
@@ -65,20 +88,26 @@
             </div>
             <div class="language">
                 <select>
-                    <option>Tiếng Việt</option>
-                    <option>Tiếng Anh</option>
-                    <option>Tiếng Pháp</option>
+                    <option>Tiếng Việt (Tiếng Việt)</option>
+                    <option>Tiếng Anh (Tiếng Anh)</option>
+                    <option>Tiếng Pháp (Tiếng Pháp)</option>
 
                 </select>
             </div>
 
-            <div class="logo-noti"></div>
-            <div class="logo-call"></div>
+            <div class="logo-noti">
+                <i class="fa fa-globe fa-2x" style="color: #fff;"></i>
+            </div>
+            <div class="logo-call">
+                <i class="fa fa-whatsapp fa-2x" style="color: #fff;"></i>
+            </div>
             <div class="acount">
-                <div class="acount-image"></div>
+                <div class="acount-image">
+                    <i class="fa fa-user fa-2x" style="color: #d1c6c6;"></i>
+                </div>
                 <div class="acount-name">
                     <select>
-                        <option>Trinh Dinh Nam</option>
+                        <option>Trịnh Đình Nam</option>
                         <option>Login</option>
                         <option>Logout</option>
                     </select>
@@ -89,24 +118,40 @@
 
         </div>
         <div class="content-body">
-            <div class="page-title"><h1>Danh mục nhân viên</h1></div>
+            <div class="page-title">
+                <h1>Danh mục</h1>
+                <i class="fa fa-caret-right" style="color: #2973b9;"></i>
+
+                <h5>Khách hàng</h5>
+                <div class="back">Quay lại thiết bị ban đầu</div>
+                <div class="feedback"><div class="viewemail"></div>Phản hồi</div>
+
+            </div>
             <div class="grid-content">
                 <div class="toolbar">
                     <button><i class="icon icon-add"></i>Thêm</button>
+                    <button><i class="icon icon-copy"></i>Nhân bản</button>
                     <button><i class="icon icon-edit"></i>Sửa</button>
                     <button><i class="icon icon-del"></i>Xóa</button>
+                    <button><i class="icon icon-load"></i>Nạp</button>
+                    <button><i class="icon icon-input"></i>Nhập khẩu</button>
+                    <button><i class="icon icon-output"></i>Xuất khẩu</button>
+                    <button><i class="icon icon-merge"></i>Gộp khách hàng</button>
+                    <button><i class="icon icon-question"></i>Giúp</button>
+
 
                 </div>
                 <div class="grid">
-                    <table border="1" cellpadding="0">
+                    <table cellpadding="0">
                         <thead>
-                        <th>Mã nhân viên</th>
-                        <th>Tên nhân viên</th>
-                        <th>Ngày sinh</th>
-                        <th>Địa chỉ</th>
-                        <th>Số điện thoại</th>
-                        <th>Email</th>
-
+                            <tr>
+                                <th>Mã khách hàng</th>
+                                <th>Tên khách hàng</th>
+                                <th>Ngày sinh</th>
+                                <th>Địa chỉ</th>
+                                <th>Số điện thoại</th>
+                                <th>Email</th>
+                            </tr>
                         </thead>
                         <tbody>
                             <tr>
@@ -116,8 +161,6 @@
                                 <td>Yên Định, Thanh Hóa</td>
                                 <td>0395699933</td>
                                 <td>trinhdinhnam16898@gmail.com</td>
-
-
                             </tr>
                             <tr>
                                 <td>KH000023</td>
@@ -126,18 +169,14 @@
                                 <td>Kim Ngưu, Hà Nội</td>
                                 <td>0493905043</td>
                                 <td>tuannv1233@gmail.com</td>
-
-
                             </tr>
                             <tr>
                                 <td>KH000017</td>
-                                <td>Nguyễn Minh Hoàng/td>
+                                <td>Nguyễn Minh Hoàng</td>
                                 <td>23/06/1998</td>
                                 <td>Lý Nhân, Vĩnh Tường, Vĩnh Phúc</td>
                                 <td>4930430950</td>
                                 <td>minhhoangnguyen123@gmail.com</td>
-
-
                             </tr>
                         </tbody>
                     </table>
@@ -146,5 +185,85 @@
             </div>
         </div>
     </div>
+    <!-- Modal -->
+    <div class="modal">
+    </div>
+
+    <!-- Form Dialog -->
+    <div class="dialog-form">
+        <div class="dialog-title">
+            <div class="dialog-title-text">Khách hàng</div>
+            <div class="dialog-title-icon">
+                <i class="fa fa-times-circle" style="color: #fff;"></i>
+            </div>
+
+        </div>
+        <div class="dialog-content">
+            <div class="customer-id">
+                <div class="customer-id-text">Mã khách hàng (*)</div>
+                <input class="customer-id-input" />
+
+            </div>
+            <div class="customer-name">
+                <div class="customer-name-text">Tên khách hàng (*)</div>
+                <input class="customer-name-input" />
+
+            </div>
+            <div class="member-id">
+                <div class="member-id-text">Mã thẻ thành viên</div>
+                <input class="member-id-input" />
+
+            </div>
+            <div class="customer-group">
+                <div class="customer-group-text">Nhóm khách hàng</div>
+                <div class="customer-group-content">
+                    <select class="selected-customer-group">
+                    </select>
+                    <div class="add-customer-group"></div>
+                </div>
+
+            </div>
+            <div class="phone">
+                <div class="phone-text">ĐT di động (*)</div>
+                <input class="phone-input" />
+
+            </div>
+            <div class="birth">
+                <div class="birth-text">Ngày sinh</div>
+                <input type="date" class="birth-input" />
+
+            </div>
+            <div class="manage-name">
+                <div class="manage-name-text">Tên công ty</div>
+                <input class="manage-name-input" />
+
+            </div>
+            <div class="tax-id">
+                <div class="tax-id-text">Mã số thuế</div>
+                <input class="tax-id-input" />
+            </div>
+
+            <div class="email">
+                <div class="email-text">Email</div>
+                <input class="email-input" />
+            </div>
+            <div class="address">
+                <div class="address-text">Địa chỉ</div>
+                <input class="address-input" />
+            </div>
+            <div class="note">
+                <div class="note-text">Ghi chú</div>
+                <textarea class="note-input"></textarea>
+            </div>
+
+            <div class="toolbar-dialog">
+                <button><i class="icon-dialog icon-help-dialog"></i>Giúp</button>
+                <button><i class="icon-dialog icon-store-dialog"></i>Cất</button>
+                <button><i class="icon-dialog icon-storeadd-dialog"></i>Cất & Thêm</button>
+                <button><i class="icon-dialog icon-cancle-dialog"></i>Hủy bỏ</button>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>

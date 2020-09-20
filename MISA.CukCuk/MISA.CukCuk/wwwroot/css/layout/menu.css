@@ -1,0 +1,128 @@
+﻿/*Css menu*/
+.menu {
+    float: left;
+    width: 250px;
+    height: 100vh;
+    background-color: #0973b9;
+}
+
+/*menu logo*/
+#logo {
+    width: 100%;
+    height: 50px;
+}
+
+
+#logo .iconbar {
+    width: 50px !important;
+    float: left;
+    height: 100%;
+    background-image: url('../../content/images/icon-left-header.png');
+    background-repeat: no-repeat;
+    background-position: 20px 15px;
+}
+
+#logo .logo-text {
+    float: left;
+    height: 100%;
+    width: calc(100% - 50px);
+    background-image: url('../../content/images/logo-text.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+/*Menu item*/
+#menu-content {
+    width: 100%;
+    height: calc(100% - 50px);
+}
+
+.menu-item {
+    color: #ffffff;
+    height: 40px;
+    display: flex;
+    padding-left: 10px;
+    border-bottom: 1px solid #08598e;
+    background-color: #0973b9;
+    border-top: 1px solid #1b8bd4;
+}
+
+    .menu-item:hover {
+        background-color: #ff6a00;
+        cursor: pointer;
+    }
+
+    .menu-item .menu-item-icon {
+        width: 40px;
+        height: 100%;
+        align-self: center;
+        background-repeat: no-repeat;
+        
+    }
+
+    .menu-item .menu-item-text {
+        line-height: 40px;
+    }
+
+.icon-board {
+    background-image: url('../../content/images/iconMenu.png');
+    background-position: 7px 8px;
+}
+
+.icon-report {
+    background-image: url('../../content/images/iconMenu.png');
+    background-position: 7px -184px;
+}
+
+.icon-buy {
+    background-image: url('../../content/images/iconMenu.png');
+    background-position: 7px -367px;
+}
+
+.icon-warehouse {
+    background-image: url('../../content/images/iconMenu.png');
+    background-position: 7px -31px;
+}
+
+.icon-cashfund {
+    background-image: url('../../content/images/iconMenu.png');
+    background-position: 7px -71px;
+}
+
+.icon-depositfund {
+    background-image: url('../../content/images/icon-deposit.png');
+    background-position: 10px 7px;
+}
+
+.icon-cost {
+    background-image: url('../../content/images/icon-cost.png');
+    background-position: 7px 7px;
+}
+
+.icon-discount {
+    background-image: url('../../content/images/iconMenu.png');
+    background-position: 7px -110px;
+}
+
+.icon-category {
+    background-image: url('../../content/images/iconMenu.png');
+    background-position: 7px -148px;
+}
+
+.icon-subscriber {
+    background-image: url('../../content/images/icon-subscriber.png');
+    background-position: 10px 7px;
+}
+.icon-odercancle {
+    background-image: url('../../content/images/ic_hoadon.png');
+    background-position: 10px 7px;
+}
+
+.icon-setting {
+    background-image: url('../../content/images/iconMenu.png');
+    background-position: 7px -227px;
+}
+.icon-help {
+    background-image: url('../../content/images/iconHelp.png');
+    background-position: 10px 7px;
+}

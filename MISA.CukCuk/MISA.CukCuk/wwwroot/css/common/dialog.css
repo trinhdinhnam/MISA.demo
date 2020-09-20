@@ -1,0 +1,262 @@
+﻿/* Dialog form css*/
+.dialog-form {
+    position: fixed;
+    width: 640px;
+    height: 380px;
+    background-color: #0973b9;
+    margin-left: 380px;
+    margin-top: 160px;
+    top: 0px;
+}
+.dialog-form .dialog-title{
+    height: 25px;
+    padding: 5px;
+    display: flex;
+}
+
+.dialog-form .dialog-title .dialog-title-text{
+    color: #ffffff;
+}
+    .dialog-form .dialog-title .dialog-title-icon {
+        margin-left: 530px;
+    }
+    .dialog-form .dialog-title .dialog-title-icon:hover {
+       cursor: pointer;
+    }
+
+/*dialog content css*/
+    .dialog-form .dialog-content {
+        position: absolute;
+        background-color: #fff;
+        top: 30px;
+        left: 5px;
+        right: 5px;
+        bottom: 5px;
+        padding: 10px;
+    }
+
+/*customer id*/
+.dialog-content .customer-id{
+    margin: 5px;
+    display: flex;
+    float: left;
+}
+.dialog-content .customer-id .customer-id-text{
+    margin-right: 20px;
+}
+    .dialog-content .customer-id .customer-id-input {
+        width: 140px;
+    }
+
+/*customer name*/
+
+.dialog-content .customer-name {
+    display: flex;
+    float: left;
+    margin: 5px;
+}
+
+.dialog-content .customer-name .customer-name-text {
+    margin-right: 14px;
+}
+.dialog-content .customer-name .customer-name-input {
+    width: 140px;
+}
+/*member id*/
+
+.dialog-content .member-id {
+
+    margin: 5px;
+}
+
+    .dialog-content .member-id .member-id-text {
+        margin-right: 25px;
+    }
+
+    .dialog-content .member-id .member-id-input {
+        width: 140px;
+    }
+
+/*customer group*/
+
+.dialog-content .customer-group {
+    margin: 5px;
+    display: flex;
+}
+
+    .dialog-content .customer-group .customer-group-text {
+        margin-right: 25px;
+    }
+
+    .dialog-content .customer-group .customer-group-content {
+        border: 1px solid #808080;
+        background-color: #fff;
+        width: 147px;
+        height: 20px;
+
+    }
+        .dialog-content .customer-group .customer-group-content .selected-customer-group {
+            width: 125px;
+            border: none;
+            float: left;
+            height: 100%;
+        }
+        .dialog-content .customer-group .customer-group-content .add-customer-group {
+            display: block;
+            background-repeat: no-repeat;
+            background-image: url('../../content/images/IconSprite.png');
+            width: 16px;
+            height: 16px;
+            background-position: 0 -2479px;
+            margin-left: 3px;
+            float: left;
+        }
+/*phone number*/
+
+.dialog-content .phone {
+    margin: 5px;
+    display: flex;
+}
+
+    .dialog-content .phone .phone-text {
+        margin-right: 47px;
+    }
+
+    .dialog-content .phone .phone-input {
+        width: 140px;
+    }
+/*birth*/
+
+.dialog-content .birth {
+    margin: 5px;
+    display: flex;
+}
+
+    .dialog-content .birth .birth-text {
+        margin-right: 80px;
+    }
+
+    .dialog-content .birth .birth-input {
+        width: 145px;
+    }
+
+/*manage name*/
+
+.dialog-content .manage-name {
+    margin: 5px;
+    display: flex;
+}
+
+    .dialog-content .manage-name .manage-name-text {
+        margin-right: 65px;
+    }
+
+    .dialog-content .manage-name .manage-name-input {
+        width: 445px;
+    }
+
+/* tax id*/
+
+.dialog-content .tax-id {
+    margin: 5px;
+    float: left;
+    display: flex;
+}
+
+    .dialog-content .tax-id .tax-id-text {
+        margin-right: 71px;
+    }
+
+    .dialog-content .tax-id .tax-id-input {
+        width: 140px;
+    }
+
+/*Email*/
+
+.dialog-content .email {
+    margin: 5px;
+    display: flex;
+    float: left;
+}
+
+    .dialog-content .email .email-text {
+        margin-right: 110px;
+    }
+
+    .dialog-content .email .email-input {
+        width: 140px;
+    }
+/*address*/
+
+.dialog-content .address {
+    margin: 5px;
+    display: flex;
+    float: left;
+}
+
+    .dialog-content .address .address-text {
+        margin-right: 98px;
+    }
+
+    .dialog-content .address .address-input {
+        width: 445px;
+    }
+/*note*/
+
+.dialog-content .note {
+    margin: 5px;
+    display: flex;
+    float: left;
+}
+
+    .dialog-content .note .note-text {
+        margin-right: 95px;
+    }
+
+    .dialog-content .note .note-input {
+        width: 445px;
+        height: 40px;
+    }
+
+/*toolbar dialog*/
+
+.dialog-content .toolbar-dialog {
+    border: none;
+    height: 25px;
+    width: 100%;
+    display: flex;
+}
+
+.toolbar-dialog button {
+    height: 100%;
+    display: flex;
+    border: 1px solid #808080;
+    padding: 3px;
+}
+.toolbar-dialog button:hover {
+    background-color: #fff;
+    border: 1px solid #2b9adb;
+    cursor: pointer;
+}
+
+.toolbar-dialog .icon-dialog {
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url('../../content/images/IconSprite.png');
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
+}
+
+    .toolbar-dialog .icon-dialog.icon-help-dialog {
+        background-position: 0 -1600px;
+    }
+    .toolbar-dialog .icon-dialog.icon-store-dialog {
+        background-image: url('../../content/images/Save16.png');
+    }
+    .toolbar-dialog .icon-dialog.icon-storeadd-dialog {
+        background-image: url('../../content/images/SaveAdd16.png');
+    }
+    .toolbar-dialog .icon-dialog.icon-cancle-dialog {
+        background-image: url('../../content/images/Disable16.png');
+    }
