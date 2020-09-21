@@ -1,12 +1,19 @@
-﻿/* Dialog form css*/
+﻿.clear{
+    clear: both;
+}
+/* Dialog form css*/
 .dialog-form {
-    position: fixed;
+    display: none;
+    position: absolute;
     width: 640px;
     height: 380px;
     background-color: #0973b9;
-    margin-left: 380px;
-    margin-top: 160px;
-    top: 0px;
+    /*margin-left: 380px;
+    margin-top: 160px;*/
+    top: calc(50% - 200px);
+    left: calc(50% - 300px);
+    right: 0;
+    bottom: 0;
 }
 .dialog-form .dialog-title{
     height: 25px;
@@ -33,6 +40,7 @@
         right: 5px;
         bottom: 5px;
         padding: 10px;
+        padding-right: 0px;
     }
 
 /*customer id*/
@@ -45,7 +53,7 @@
     margin-right: 20px;
 }
     .dialog-content .customer-id .customer-id-input {
-        width: 140px;
+        width: 146px;
     }
 
 /*customer name*/
@@ -60,21 +68,24 @@
     margin-right: 14px;
 }
 .dialog-content .customer-name .customer-name-input {
-    width: 140px;
+    width: 146px;
 }
 /*member id*/
 
 .dialog-content .member-id {
 
     margin: 5px;
+    display: flex;
+    float: left;
 }
 
     .dialog-content .member-id .member-id-text {
         margin-right: 25px;
+
     }
 
     .dialog-content .member-id .member-id-input {
-        width: 140px;
+        width: 145px;
     }
 
 /*customer group*/
@@ -82,6 +93,7 @@
 .dialog-content .customer-group {
     margin: 5px;
     display: flex;
+    float: left;
 }
 
     .dialog-content .customer-group .customer-group-text {
@@ -89,11 +101,10 @@
     }
 
     .dialog-content .customer-group .customer-group-content {
-        border: 1px solid #808080;
+        border: 1px solid #c6c2c2;
         background-color: #fff;
-        width: 147px;
+        width: 149px;
         height: 20px;
-
     }
         .dialog-content .customer-group .customer-group-content .selected-customer-group {
             width: 125px;
@@ -123,7 +134,7 @@
     }
 
     .dialog-content .phone .phone-input {
-        width: 140px;
+        width: 145px;
     }
 /*birth*/
 
@@ -137,7 +148,7 @@
     }
 
     .dialog-content .birth .birth-input {
-        width: 145px;
+        width: 148px;
     }
 
 /*manage name*/
@@ -152,7 +163,7 @@
     }
 
     .dialog-content .manage-name .manage-name-input {
-        width: 445px;
+        width: 453px;
     }
 
 /* tax id*/
@@ -168,7 +179,7 @@
     }
 
     .dialog-content .tax-id .tax-id-input {
-        width: 140px;
+        width: 146px;
     }
 
 /*Email*/
@@ -184,7 +195,7 @@
     }
 
     .dialog-content .email .email-input {
-        width: 140px;
+        width: 146px;
     }
 /*address*/
 
@@ -199,7 +210,7 @@
     }
 
     .dialog-content .address .address-input {
-        width: 445px;
+        width: 455px;
     }
 /*note*/
 
@@ -214,8 +225,9 @@
     }
 
     .dialog-content .note .note-input {
-        width: 445px;
+        width: 453px;
         height: 40px;
+        border: 1px solid #c6c2c2;
     }
 
 /*toolbar dialog*/
@@ -232,6 +244,11 @@
     display: flex;
     border: 1px solid #808080;
     padding: 3px;
+    margin-right: 10px;
+}
+
+.toolbar-dialog .btn-help{
+    margin-right: 303px;
 }
 .toolbar-dialog button:hover {
     background-color: #fff;
@@ -260,3 +277,12 @@
     .toolbar-dialog .icon-dialog.icon-cancle-dialog {
         background-image: url('../../content/images/Disable16.png');
     }
+
+.dialog-content input{
+    border: 1px solid #c6c2c2;
+    height: 18px;
+}
+
+.required-error, .required-error:focus {
+    border: 1px solid #ff0000;
+}

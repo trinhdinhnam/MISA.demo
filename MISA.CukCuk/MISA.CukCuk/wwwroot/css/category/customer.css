@@ -17,11 +17,19 @@
     border: 1px solid #e8e1e1;
 }
 
-    .grid table td, th {
-        padding: 4px;
-    }
+.grid td, th {
+    padding: 6px;
+    border: 1px solid #e8e1e1;
+}
+.grid thead{
+    background-color: rgb(239,239,239);
+}
 
-    .grid table thead {
-        background-color: rgb(239,239,239);
-    }
+.grid tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.grid tbody tr:hover{
+    background-color: #bbd3db;
+    cursor: pointer;
+}
 
