@@ -34,7 +34,7 @@
         width: 180px;
         height: 30px;
         margin-top: 10px;
-        left: calc(100% - 570px);
+        left: calc(100% - 510px);
     }
 
          .content-header .language select {
@@ -50,18 +50,40 @@
         width: 30px;
         margin: 10px;
         margin-top: 10px;
-        left: calc(100% - 380px);
+        left: calc(100% - 300px);
         float: left;
     }
+        .content-header .logo-noti .fa-globe{
+            position: absolute;
+            top: 10px; 
+        }
+            .content-header .logo-noti .fa-globe:hover{
+                cursor: pointer;
+            }
+            .content-header .logo-noti .amount-noti {
+                position: absolute;
+                background-color: #f00;
+                padding: 5px;
+                padding-top: 2px;
+                padding-bottom: 2px;
+                color: #fff;
+                left: 10px;
+                bottom: 2px;
+                font-size: 10px;
+            }
 
     .content-header .logo-call {
         position: absolute;
-        height: 30px;
-        width: 30px;
-        margin-top: 10px;
-        left: calc(100% - 240px);
+        height: 60px;
+        width: 60px;
+        left: calc(100% - 255px);
+        background-image: url('../../content/images/ic_support.svg');
+        background-repeat: no-repeat;
+        background-position: left;
+        top: -5px;
         float: left;
     }
+            
 
     .content-header .acount {
         position: absolute;
@@ -72,13 +94,23 @@
         left: calc(100% - 180px);
     }
 
-.acount .acount-image {
+.acount .acount-logo {
     float: left;
     width: 30px;
     height: 30px;
     margin-left: 10px;
+    background-color: #ebe2e2;
+    border-radius: 50px;
 }
-
+    .acount .acount-logo .acount-logo-image {
+        background-image: url('../../content/images/EmployeeImage.png');
+        background-repeat: no-repeat;
+        background-position: left;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 13px;
+    }
     .acount .acount-name {
         background-color: #2973b9;
         float: left;
@@ -162,7 +194,7 @@
 
         .content-body .grid-content {
             position: absolute;
-            border: 1px solid #ccc;
+            border: none;
             top: 50px;
             left: 10px;
             right: 10px;
