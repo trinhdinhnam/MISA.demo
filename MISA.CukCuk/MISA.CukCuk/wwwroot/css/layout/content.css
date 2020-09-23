@@ -91,7 +91,7 @@
         height: 30px;
         width: 200px;
         top: 10px;
-        left: calc(100% - 180px);
+        left: calc(100% - 170px);
     }
 
 .acount .acount-logo {
@@ -114,7 +114,7 @@
     .acount .acount-name {
         background-color: #2973b9;
         float: left;
-        width: calc(100% - 40px);
+        width: calc(100% - 50px);
         height: 100%;
     }
 
@@ -124,7 +124,7 @@
             width: 80%;
             height: 30px;
             color: white;
-            margin: auto;
+            margin-left: 2px;
         }
 
 /*Content body*/
@@ -170,13 +170,13 @@
 }
 .content-body .page-title .feedback {
     position: absolute;
-    padding: 5px;
+    padding: 4px;
     border: 1px solid #000;
     float: left;
     padding-left: 20px;
     padding-right: 20px;
     top: 10px;
-    left: calc(100% - 130px);
+    left: calc(100% - 128px);
 }
 .feedback:hover {
     background-color: #0973b9;

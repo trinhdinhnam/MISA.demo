@@ -2,14 +2,10 @@
 .grid-content .grid {
     border: 1px solid #e8e1e1;
     width: 100%;
-    height: calc( 100% - 25px);
+    height: calc( 100% - 50px);
 }
 
-.grid-content .paging {
-    height: 25px;
-    width: 100%;
-    background-color: #000;
-}
+
 
 /*Table*/
 .grid table {
@@ -33,4 +29,122 @@
     background-color: #bbd3db;
     cursor: pointer;
 }
+/* Paging css*/
+.grid-content .paging {
+    position: relative;
+    height: 25px;
+    width: 100%;
+    background-color: #f9f9f9;
+}
 
+    .grid-content .paging .page-first {
+        float: left;
+        position: absolute;
+        display: block;
+        width: 20px;
+        height: 20px;
+        top: 3px;
+        background-image: url('../../content/images/grid/page-first.png');
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    .grid-content .paging .page-previous {
+        float: left;
+        position: absolute;
+        display: block;
+        width: 20px;
+        height: 20px;
+        left: 30px;
+        top: 3px;
+        background-image: url('../../content/images/grid/page-prev.png');
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    .grid-content .paging .page-text-first {
+        float: left;
+        position: absolute;
+        width: 40px;
+        height: 20px;
+        padding-left: 10px;
+        border-left: 1px solid #e8e1e1;
+        left: 60px;
+        top: 2px;
+    }
+    .grid-content .paging .page-amount {
+        float: left;
+        position: absolute;
+        width: 40px;
+        height: 20px;
+        border: 1px solid #e8e1e1;
+        left: 120px;
+        top: 0px;
+    }
+    .grid-content .paging .page-text-second {
+        float: left;
+        position: absolute;
+        width: 40px;
+        height: 20px;
+        padding-right: 10px;
+        border-right: 1px solid #e8e1e1;
+        left: 180px;
+        top: -13px;
+    }
+
+    .grid-content .paging .page-next {
+        float: left;
+        position: absolute;
+        display: block;
+        width: 20px;
+        height: 20px;
+        top: 3px;
+        left: 240px;
+        background-image: url('../../content/images/grid/page-next.png');
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+
+    .grid-content .paging .page-last {
+        float: left;
+        position: absolute;
+        display: block;
+        width: 20px;
+        height: 20px;
+        left: 270px;
+        top: 3px;
+        background-image: url('../../content/images/grid/page-last.png');
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    .grid-content .paging .page-refresh {
+        float: left;
+        position: absolute;
+        display: block;
+        width: 40px;
+        height: 20px;
+        left: 300px;
+        border-left: 1px solid #e8e1e1;
+        border-right: 1px solid #e8e1e1;
+        top: 3px;
+        background-image: url('../../content/images/grid/refresh.png');
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    .grid-content .paging .page-selected {
+        float: left;
+        position: absolute;
+        width: 55px;
+        background-color: #f9f9f9;
+        height: 23px;
+        top: 1px;
+        left: 360px;
+        border: 1px solid #ddd6d6;
+    }
+
+    .grid-content .paging .page-text-third {
+        float: left;
+        position: absolute;
+        width: 220px;
+        height: 20px;
+        left: calc(100% - 200px);
+        top: 5px;
+    }
