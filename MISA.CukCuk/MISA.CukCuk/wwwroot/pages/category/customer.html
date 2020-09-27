@@ -9,6 +9,7 @@
     <link href="../../css/layout/menu.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href="../../css/common/dialog.css" rel="stylesheet" />
+    <link href="../../css/element/table.css" rel="stylesheet" />
 </head>
 <body>
     <!-- Menu -->
@@ -52,11 +53,16 @@
                 <div class="menu-item-icon icon-discount"></div>
                 <div class="menu-item-text">Khuyến mãi</div>
             </div>
-            <div class="menu-item">
+            <a class="menu-item" href="customer.html">
                 <div class="menu-item-icon icon-category">
                 </div>
-                <div class="menu-item-text">Danh mục</div>
-            </div>
+                <div class="menu-item-text">Danh mục khách hàng</div>
+            </a>
+            <a class="menu-item" href="employee.html">
+                <div class="menu-item-icon icon-category">
+                </div>
+                <div class="menu-item-text">Danh mục nhân viên</div>
+            </a>
             <div class="menu-item">
                 <div class="menu-item-icon icon-odercancle"></div>
                 <div class="menu-item-text">Hủy hóa đơn</div>
@@ -134,7 +140,7 @@
                     <button class="toolbar-btn-coppy"><i class="icon icon-copy"></i>Nhân bản</button>
                     <button class="toolbar-btn-edit"><i class="icon icon-edit"></i>Sửa</button>
                     <button class="toolbar-btn-del"><i class="icon icon-del"></i>Xóa</button>
-                    <button><i class="icon icon-load"></i>Nạp</button>
+                    <button id="toolbar-btn-load"><i class="icon icon-load"></i>Nạp</button>
                     <button><i class="icon icon-input"></i>Nhập khẩu</button>
                     <button><i class="icon icon-output"></i>Xuất khẩu</button>
                     <button><i class="icon icon-merge"></i>Gộp khách hàng</button>
@@ -153,6 +159,8 @@
                                 <th>Địa chỉ</th>
                                 <th>Số điện thoại</th>
                                 <th>Email</th>
+                                <th>Ngày sinh</th>
+
                             </tr>
                         </thead>
                         <tbody>
@@ -263,7 +271,8 @@
         </div>
     </div>
     <script src="../../js/common/jquery-3.5.1.min.js"></script>
-    <!--<script src="../../js/common/common.js"></script>-->
+    <script src="../../js/common/common.js"></script>
+    <script src="../../js/common/base.js"></script>
     <script src="../../js/category/customer.js"></script>
 </body>
 </html>

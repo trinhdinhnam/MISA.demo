@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\content\icon\" />
+    <Folder Include="wwwroot\js\base\" />
     <Folder Include="wwwroot\pages\report\" />
   </ItemGroup>
 

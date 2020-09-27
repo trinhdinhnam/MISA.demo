@@ -23,7 +23,7 @@
 }
 
 .grid tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: #f6f6f6;
 }
 
 .grid tbody tr:hover {
