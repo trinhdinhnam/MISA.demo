@@ -96,7 +96,11 @@
         height: 30px;
         width: 200px;
         top: 10px;
+<<<<<<< HEAD
         left: calc(100% - 190px);
+=======
+        left: calc(100% - 170px);
+>>>>>>> 2df8d1c99b7bd9a8d9c056fcfd2a9366a7e43b17
     }
 
 .acount .acount-logo {
@@ -127,6 +131,7 @@
 
     .acount .acount-name select {
         background-color: #2973b9;
+<<<<<<< HEAD
         border: none;
         width: 90%;
         height: 30px;
@@ -134,6 +139,22 @@
         margin-left: 8px;
     }
 
+=======
+        float: left;
+        width: calc(100% - 50px);
+        height: 100%;
+    }
+
+        .acount .acount-name select {
+            background-color: #2973b9;
+            border: none;
+            width: 80%;
+            height: 30px;
+            color: white;
+            margin-left: 2px;
+        }
+
+>>>>>>> 2df8d1c99b7bd9a8d9c056fcfd2a9366a7e43b17
 /*Content body*/
 .content-body {
     position: relative;
